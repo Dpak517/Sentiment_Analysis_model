@@ -66,16 +66,16 @@ This project explores the use of Natural Language Processing (NLP) techniques to
 ### Techniques Used:
 1. **TF-IDF + SMOTE**:
    - Trained classifiers like **XGBoost**, achieving:
-     - **Accuracy**: 74%
+     - **Accuracy**: 70%
      - **Improved F1 scores** on imbalanced classes.
 
-2. **Word2Vec + Bi-LSTM**:
+2. **Bi-LSTM**:
    - Leveraged word embeddings and a **Bidirectional LSTM** model:
-     - **Accuracy**: 76%
+     - **Accuracy**: 73.5%
      - Significantly improved F1 scores for minority classes.
 
 3. **Other Models**:
-   - Explored **CNN** and traditional **LSTM** models, but Bi-LSTM outperformed them.
+   - Explored traditional **LSTM** models, but Bi-LSTM outperformed them.
 
 ---
 
